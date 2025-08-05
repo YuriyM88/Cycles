@@ -59,6 +59,20 @@ public class Main {
 
         System.out.println("Задача 9");
 
+        int save1 = 29000;
+        double total1 = 0;
+        for (int i = 1; i <= 12; i++) {
+            total1 = total1 * 1.01;
+            total1 = total1 + save1;
+            System.out.println( "Месяц " + i + ", сумма накоплений равна " + total1 + " рублей" );
+        }
 
+        System.out.println("Задача 10");
+
+        int two = 2;
+        for (int i = 1; i <= 10; i++) {
+            int result = two * i;
+            System.out.println(two + "*" + i + "=" + result);
+        }
     }
 }
